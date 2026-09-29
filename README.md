@@ -16,22 +16,43 @@
 ---
 
 ## 📋 สิ่งที่ต้องติดตั้งก่อนใช้งาน
-
 ก่อนเริ่มใช้งานต้องติดตั้งโปรแกรมต่อไปนี้ในเครื่อง
 
 - Node.js
 - npm
 - Git
-
 ตรวจสอบว่าติดตั้งเรียบร้อยแล้วด้วยคำสั่ง
-
 ```bash
 node -v
 npm -v
 git --version
+---
 
-#วิธี Clone และรันโปรเจกต์
+# วิธี Clone และรันโปรเจกต์
 git clone https://github.com/YOruku/projectos.git
 npm install
 npm run dev
 http://localhost:3000
+#โครงสร้างโปรเจกต์
+projectos/
+│
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+│   └── ...
+│
+├── components/
+│   └── ...
+│
+├── public/
+│   └── ...
+│
+├── lib/
+│   └── ...
+│
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── next.config.ts
+├── postcss.config.mjs
+└── README.md
