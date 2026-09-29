@@ -36,19 +36,22 @@ http://localhost:3000
 #โครงสร้างโปรเจกต์
 projectos/
 │
-├── app/
-│   ├── page.tsx
+├── app
+│   ├── globals.css
 │   ├── layout.tsx
-│   └── ...
+│   └── page.tsx
 │
-├── components/
-│   └── ...
+├── component
+│   ├── CreateFileForm.tsx
+│   ├── DiskVisualization.tsx
+│   ├── FileList.tsx
+│   ├── FileSystemSimulator.tsx
+│   └── StatsCard.tsx
 │
-├── public/
-│   └── ...
-│
-├── lib/
-│   └── ...
+├── lib
+│   ├── allocation.ts
+│   ├── file-system.ts
+│   └── types.ts
 │
 ├── package.json
 ├── package-lock.json
